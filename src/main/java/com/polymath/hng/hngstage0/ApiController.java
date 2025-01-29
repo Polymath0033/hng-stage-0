@@ -21,7 +21,7 @@ public class ApiController {
         Map<String,String> response = new LinkedHashMap<>();
         response.put("email","olosanyusuf19@gmail.com");
         response.put("current_datetime", ZonedDateTime.now().withNano(0).format(DateTimeFormatter.ISO_INSTANT));
-        response.put("github_url","https://github.com/Polymath0033/hng-stage-0.git");
+        response.put("github_url","https://github.com/Polymath0033/hng-stage-0");
         return response;
     }
 
